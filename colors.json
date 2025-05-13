@@ -1,0 +1,199 @@
+{
+  "shapes": {
+    "#000000": {
+      "value": "",
+      "comment": "R outline (inactive), system settings A1 SR/buf background, audio qos statistics background (click on A1 SR in system settings), output device selection window current selection, stuff in VBAN option and MIDI mapping windows"
+    },
+    "#CC2814": {
+      "value": "#f38ba8",
+      "comment": "cassette background when recording"
+    },
+    "#FC3C1E": {
+      "value": "",
+      "comment": "??"
+    },
+    "#F0EB36": {
+      "value": "",
+      "comment": "??"
+    },
+    "#061C9D": {
+      "value": "",
+      "comment": "??"
+    },
+    "#0F5FE2": {
+      "value": "",
+      "comment": "??"
+    },
+    "#8C93E4": {
+      "value": "",
+      "comment": "??"
+    },
+    "#036B7A": {
+      "value": "",
+      "comment": "??"
+    },
+    "#404040": {
+      "value": "",
+      "comment": "??"
+    },
+    "#828282": {
+      "value": "",
+      "comment": "two lines in audio qos window (system settings, click on A1 SR)"
+    },
+    "#B4B4B4": {
+      "value": "",
+      "comment": "device selection background for 3 buttons bottom left and some lines"
+    },
+    "#E6E6E6": {
+      "value": "",
+      "comment": "device selection partial background"
+    },
+    "#36495A": {
+      "value": "#1e1e2e",
+      "comment": "some lines at the top around inputs, sample rate, comp/gate, divisors in EQ and graph,"
+    },
+    "#FFFFFF": {
+      "value": "",
+      "comment": "device selection partial background, ?,_,X buttons outer line"
+    },
+    "#2C3D4D": {
+      "value": "#1e1e2e",
+      "comment": "most of the visible lines in main UI, system settings"
+    },
+    "#122029": {
+      "value": "#11111b",
+      "comment": "EQ background, system settings patch composite background"
+    },
+    "#70C399": {
+      "value": "",
+      "comment": "?"
+    },
+    "#F8634D": {
+      "value": "#cba6f7",
+      "comment": "line around \"input\" of cassette, intellipan knobs (active)"
+    },
+    "#DCDCC8": {
+      "value": "#939ab7",
+      "comment": "cassette path/file bg"
+    },
+    "#C83232": {
+      "value": "#ed8796",
+      "comment": "cassette background when recording"
+    },
+    "#3C3C00": {
+      "value": "#11111b",
+      "comment": "brick limiter area"
+    },
+    "#FFFF1E": {
+      "value": "#fab387",
+      "comment": "bottom line of brick limiter"
+    },
+    "#5F707C": {
+      "value": "#cba6f7",
+      "comment": "vban top right"
+    },
+    "#6F8CA0": {
+      "value": "#585b70",
+      "comment": "line around default position of intellipan square and \"startup\" outline"
+    },
+    "#68E6FA": {
+      "value": "#cba6f7",
+      "comment": "remote app active (top)"
+    },
+    "#545454": {
+      "value": "#1e1e2e",
+      "comment": "cassette play time bg"
+    },
+    "#6E6E6E": {
+      "value": "#1e1e2e",
+      "comment": "cassette line around play time"
+    },
+    "#24A731": {
+      "value": "#a6e3a1",
+      "comment": "cassette bar when file played"
+    }
+  },
+  "text": {
+    "#b7bdf8": {
+      "value": "",
+      "comment": "??"
+    },
+    "#68e6fa": {
+      "value": "#cba6f7",
+      "comment": "remote app \"R\""
+    },
+    "#969696": {
+      "value": "#cdd6f4",
+      "comment": "x64 logo and EQ labels"
+    },
+    "#718ca2": {
+      "value": "#cdd6f4",
+      "comment": "input custom name"
+    },
+    "#B4B4B4": {
+      "value": "#cdd6f4",
+      "comment": "input device label"
+    },
+    "#6f8ca0": {
+      "value": "#585b70",
+      "comment": "\"select input device\", comp, gate, comp/gate knob value (off), current db outputs, equalizer labels, hardware out sample rate, basically everything in system settings"
+    },
+    "#828282": {
+      "value": "#cdd6f4",
+      "comment": "khz and sample rate underneath input"
+    },
+    "#e6e6e6": {
+      "value": "#cba6f7",
+      "comment": "\"engine start\" text, system settings input labels"
+    },
+    "#286442": {
+      "value": "#1e1e2e",
+      "comment": "fader custom labels"
+    },
+    "#ffffff": {
+      "value": "#cdd6f4",
+      "comment": "fader db labels, system settings sample rates"
+    },
+    "#c8c800": {
+      "value": "#fab387",
+      "comment": "db brick limiter label"
+    },
+    "#70c399": {
+      "value": "#cba6f7",
+      "comment": "comp/gate knob value (on)"
+    },
+    "#646464": {
+      "value": "#292c3c",
+      "comment": "cassette loaded file path"
+    },
+    "#f8634d": {
+      "value": "#cba6f7",
+      "comment": "cassette \"input\""
+    },
+    "#c8c8c8": {
+      "value": "#cdd6f4",
+      "comment": "cassette inner timer, EQ values"
+    },
+    "#8c9ba0": {
+      "value": "#cba6f7",
+      "comment": "VBAN label top right"
+    },
+    "#9f9f9f": {
+      "value": "",
+      "comment": "default xml file name in main menu"
+    },
+    "#ffffc8": {
+      "value": "#f4dbd6",
+      "comment": "contextual help top"
+    },
+    "#e6e6be": {
+      "value": "#cad3f5",
+      "comment": "contextual help mid"
+    },
+    "#e6c896": {
+      "value": "#cad3f5",
+      "comment": "contextual help bottom"
+    }
+  }
+}
+
