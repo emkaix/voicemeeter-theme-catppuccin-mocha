@@ -1,6 +1,10 @@
 # Catppuccin Mocha for Voicemeeter
-### (currently only Potato)
+### (for Banana & Potato)
+
+
 ![UI](potato.png)
+
+![UI](banana.png)
 
 Voicemeeter theme that uses the [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) color palette.
 
