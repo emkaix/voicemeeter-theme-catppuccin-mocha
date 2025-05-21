@@ -18,8 +18,13 @@ This theme is meant to be used with [voicemeeter-themes-mod](https://github.com/
 
 ```
 C:\Users\<USER>\Documents\Voicemeeter\theme.json
+
 C:\Users\<USER>\Documents\Voicemeeter\themes\potato\catppuccin_mocha\bg.bmp
 C:\Users\<USER>\Documents\Voicemeeter\themes\potato\catppuccin_mocha\bg_settings.bmp
 C:\Users\<USER>\Documents\Voicemeeter\themes\potato\catppuccin_mocha\colors.json
+
+C:\Users\<USER>\Documents\Voicemeeter\themes\banana\catppuccin_mocha\bg.bmp
+C:\Users\<USER>\Documents\Voicemeeter\themes\banana\catppuccin_mocha\bg_settings.bmp
+C:\Users\<USER>\Documents\Voicemeeter\themes\banana\catppuccin_mocha\colors.json
 ```
 4. Launch Voicemeeter with [voicemeeter-themes-mod](https://github.com/emkaix/voicemeeter-themes-mod) launcher.
