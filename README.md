@@ -24,4 +24,4 @@ C:\Users\<USER>\Documents\Voicemeeter\themes\catppuccin_mocha\banana\bg_settings
 C:\Users\<USER>\Documents\Voicemeeter\themes\catppuccin_mocha\potato\bg.bmp
 C:\Users\<USER>\Documents\Voicemeeter\themes\catppuccin_mocha\potato\bg_settings.bmp
 ```
-4. Launch Voicemeeter with [voicemeeter-themes-mod](https://github.com/emkaix/voicemeeter-themes-mod) launcher.
+4. Launch Voicemeeter using [voicemeeter-themes-mod](https://github.com/emkaix/voicemeeter-themes-mod).
