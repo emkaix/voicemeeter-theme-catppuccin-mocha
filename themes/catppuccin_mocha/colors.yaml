@@ -1,51 +1,80 @@
+palette:
+  rosewater: &rosewater "#f5e0dc"
+  flamingo:  &flamingo  "#f2cdcd"
+  pink:      &pink      "#f5c2e7"
+  mauve:     &mauve     "#cba6f7"
+  red:       &red       "#f38ba8"
+  maroon:    &maroon    "#eba0ac"
+  peach:     &peach     "#fab387"
+  yellow:    &yellow    "#f9e2af"
+  green:     &green     "#a6e3a1"
+  teal:      &teal      "#94e2d5"
+  sky:       &sky       "#89dceb"
+  sapphire:  &sapphire  "#74c7ec"
+  blue:      &blue      "#89b4fa"
+  lavender:  &lavender  "#b4befe"
+  text:      &text      "#cdd6f4"
+  subtext1:  &subtext1  "#bac2de"
+  subtext0:  &subtext0  "#a6adc8"
+  overlay2:  &overlay2  "#9399b2"
+  overlay1:  &overlay1  "#7f849c"
+  overlay0:  &overlay0  "#6c7086"
+  surface2:  &surface2  "#585b70"
+  surface1:  &surface1  "#45475a"
+  surface0:  &surface0  "#313244"
+  base:      &base      "#1e1e2e"
+  mantle:    &mantle    "#181825"
+  crust:     &crust     "#11111b"
+
 shapes:
-  "#000000": "" # R outline (inactive), system settings A1 SR/buf background, audio qos statistics background (click on A1 SR in system settings), output device selection window current selection, stuff in VBAN option and MIDI mapping windows
-  "#CC2814": "#f38ba8" # cassette background when recording
-  "#FC3C1E": "" # ??
-  "#F0EB36": "" # ??
-  "#061C9D": "" # ??
-  "#0F5FE2": "" # ??
-  "#8C93E4": "" # ??
-  "#036B7A": "" # ??
-  "#404040": "" # ??
-  "#828282": "" # two lines in audio qos window (system settings, click on A1 SR)
-  "#B4B4B4": "" # device selection background for 3 buttons bottom left and some lines
-  "#E6E6E6": "" # device selection partial background
-  "#36495A": "#1e1e2e" # some lines at the top around inputs, sample rate, comp/gate, divisors in EQ and graph
-  "#FFFFFF": "" # device selection partial background, ?,_,X buttons outer line
-  "#2C3D4D": "#1e1e2e" # most of the visible lines in main UI, system settings
-  "#122029": "#11111b" # EQ background, system settings patch composite background
-  "#70C399": "" # ?
-  "#F8634D": "#cba6f7" # line around "input" of cassette, intellipan knobs (active)
-  "#DCDCC8": "#939ab7" # cassette path/file bg
-  "#C83232": "#ed8796" # cassette background when recording
-  "#3C3C00": "#11111b" # brick limiter area
-  "#FFFF1E": "#fab387" # bottom line of brick limiter
-  "#5F707C": "#cba6f7" # vban top right
-  "#6F8CA0": "#585b70" # line around default position of intellipan square and "startup" outline
-  "#68E6FA": "#cba6f7" # remote app active (top)
-  "#545454": "#1e1e2e" # cassette play time bg
-  "#6E6E6E": "#1e1e2e" # cassette line around play time
-  "#24A731": "#a6e3a1" # cassette bar when file played
+  "#000000": ""         # R outline (inactive), system settings A1 SR/buf background, audio qos statistics background (click on A1 SR in system settings), output device selection window current selection, stuff in VBAN option and MIDI mapping windows
+  "#CC2814": *red       # cassette background when recording
+  "#FC3C1E": ""         # ??
+  "#F0EB36": ""         # ??
+  "#061C9D": ""         # ??
+  "#0F5FE2": ""         # ??
+  "#8C93E4": ""         # ??
+  "#036B7A": ""         # ??
+  "#404040": ""         # ??
+  "#828282": ""         # two lines in audio qos window (system settings, click on A1 SR)
+  "#B4B4B4": ""         # device selection background for 3 buttons bottom left and some lines
+  "#E6E6E6": ""         # device selection partial background
+  "#36495A": *base      # some lines at the top around inputs, sample rate, comp/gate, divisors in EQ and graph
+  "#FFFFFF": ""         # device selection partial background, ?,_,X buttons outer line
+  "#2C3D4D": *base      # most of the visible lines in main UI, system settings
+  "#122029": *crust     # EQ background, system settings patch composite background
+  "#70C399": ""         # ?
+  "#F8634D": *mauve     # line around "input" of cassette, intellipan knobs (active)
+  "#DCDCC8": *overlay2  # cassette path/file bg
+  "#C83232": *red       # cassette background when recording
+  "#3C3C00": *crust     # brick limiter area
+  "#FFFF1E": *peach     # bottom line of brick limiter
+  "#5F707C": *mauve     # vban top right
+  "#6F8CA0": *surface2  # line around default position of intellipan square and "startup" outline
+  "#68E6FA": *mauve     # remote app active (top)
+  "#545454": *surface0  # cassette play time bg
+  "#6E6E6E": *base      # cassette line around play time
+  "#24A731": *green     # cassette bar when file played
+
 text:
-  "#b7bdf8": "" # ??
-  "#68e6fa": "#cba6f7" # remote app "R"
-  "#969696": "#cdd6f4" # x64 logo and EQ labels
-  "#718ca2": "#cdd6f4" # input custom name
-  "#B4B4B4": "#cdd6f4" # input device label
-  "#6f8ca0": "#585b70" # "select input device", comp, gate, comp/gate knob value (off), current db outputs, equalizer labels, hardware out sample rate, basically everything in system settings
-  "#828282": "#cdd6f4" # khz and sample rate underneath input
-  "#e6e6e6": "#cba6f7" # "engine start" text, system settings input labels
-  "#286442": "#1e1e2e" # fader custom labels
-  "#ffffff": "#cdd6f4" # fader db labels, system settings sample rates
-  "#c8c800": "#fab387" # db brick limiter label
-  "#70c399": "#cba6f7" # comp/gate knob value (on)
-  "#646464": "#292c3c" # cassette loaded file path
-  "#f8634d": "#cba6f7" # cassette "input"
-  "#c8c8c8": "#cdd6f4" # cassette inner timer, EQ values
-  "#8c9ba0": "#cba6f7" # VBAN label top right
-  "#9f9f9f": "" # default xml file name in main menu
-  "#ffffc8": "#f4dbd6" # contextual help top
-  "#e6e6be": "#cad3f5" # contextual help mid
-  "#e6c896": "#cad3f5" # contextual help bottom
-  "#a01607": "#1e1e2e" # 
+  "#b7bdf8": ""         # ??
+  "#68e6fa": *mauve     # remote app "R"
+  "#969696": *text      # x64 logo and EQ labels
+  "#718ca2": *text      # input custom name
+  "#B4B4B4": *text      # input device label
+  "#6f8ca0": *surface2  # "select input device", comp, gate, comp/gate knob value (off), current db outputs, equalizer labels, hardware out sample rate, basically everything in system settings
+  "#828282": *text      # khz and sample rate underneath input
+  "#e6e6e6": *mauve     # "engine start" text, system settings input labels
+  "#286442": *base      # fader custom labels
+  "#ffffff": *text      # fader db labels, system settings sample rates
+  "#c8c800": *peach     # db brick limiter label
+  "#70c399": *mauve     # comp/gate knob value (on)
+  "#646464": *mantle    # cassette loaded file path
+  "#f8634d": *mauve     # cassette "input"
+  "#c8c8c8": *text      # cassette inner timer, EQ values
+  "#8c9ba0": *mauve     # VBAN label top right
+  "#9f9f9f": ""         # default xml file name in main menu
+  "#ffffc8": *rosewater # contextual help top
+  "#e6e6be": *text      # contextual help mid
+  "#e6c896": *text      # contextual help bottom
+  "#a01607": *base      # ??
