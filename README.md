@@ -35,5 +35,7 @@ theme:
 
 (...)
 ```
+> [!IMPORTANT]  
+> Make sure to include the single space after `:`
 
-4. Launch Voicemeeter with the [VoiceMeeter Chroma](https://github.com/emkaix/voicemeeter-chroma) mod.
+5. Launch Voicemeeter with the [VoiceMeeter Chroma](https://github.com/emkaix/voicemeeter-chroma) mod.
